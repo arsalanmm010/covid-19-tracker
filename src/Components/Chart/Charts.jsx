@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { fetchDailyData } from "../../api";
+// eslint-disable-next-line no-unused-vars
 import {Chart as ChartJS} from 'chart.js/auto'
+// eslint-disable-next-line no-unused-vars
 import {Line, Bar, Chart} from 'react-chartjs-2'
 import styles from './Chart.module.css'
 
